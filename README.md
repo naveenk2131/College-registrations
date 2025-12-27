@@ -14,6 +14,8 @@ The College Event Registration Page allows students to:
  Technologies Used;
          HTML
 
+To go the website for registration: 
+https://naveenk2131.github.io/College-registrations/
 
  Features
 
