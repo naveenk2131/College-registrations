@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>College Event Registration</title>
+</head>
+<body>
+
+    <h1>College Technical Event Registration</h1>
+    <p>Fill the form below to register for the upcoming college events.</p>
+
+    <form>
+
+        <fieldset>
+            <legend>Student Details</legend>
+
+            Full Name:
+            <input type="text" name="name" required><br><br>
+
+            Register Number:
+            <input type="text" name="regno" required><br><br>
+
+            Department:
+            <select>
+                <option>CSE</option>
+                <option>IT</option>
+                <option>ECE</option>
+                <option>EEE</option>
+                <option>MECH</option>
+            </select>
+            <br><br>
+
+            Year:
+            <input type="radio" name="year"> I
+            <input type="radio" name="year"> II
+            <input type="radio" name="year"> III
+            <input type="radio" name="year"> IV
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Event Selection</legend>
+
+            Select Events:<br>
+            <input type="checkbox"> Paper Presentation<br>
+            <input type="checkbox"> Coding Contest<br>
+            <input type="checkbox"> Hackathon<br>
+            <input type="checkbox"> Quiz Competition<br>
+            <input type="checkbox"> Project Expo
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Contact Details</legend>
+
+            Email:
+            <input type="email" name="email" required><br><br>
+
+            Mobile Number:
+            <input type="tel" name="mobile" required>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Additional Information</legend>
+
+            Any special requirements?<br>
+            <textarea rows="4" cols="40"></textarea>
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+
+    </form>
+
+    <hr>
+
+    <h3>Event Schedule</h3>
+    <table border="1">
+        <tr>
+            <th>Event Name</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Venue</th>
+        </tr>
+        <tr>
+            <td>Paper Presentation</td>
+            <td>10-02-2025</td>
+            <td>10:00 AM</td>
+            <td>Main Auditorium</td>
+        </tr>
+        <tr>
+            <td>Coding Contest</td>
+            <td>10-02-2025</td>
+            <td>1:00 PM</td>
+            <td>Computer Lab</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <footer>
+        <p>© 2025  Engineering College</p>
+    </footer>
+
+</body>
+</html>
